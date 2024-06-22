@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/* src/App.css */
+.container {
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.employee-card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.employee-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.employee-card h5 {
+  margin: 0;
+}
+
+.employee-card button {
+  margin-top: 10px;
+}
+
+.employee-detail {
+  border: 1px solid #ccc;
+  padding: 20px;
 }
